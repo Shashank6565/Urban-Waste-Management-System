@@ -9,23 +9,22 @@
 
 typedef struct
 {
-    int ID,capacity,current_fill;
+    int id,capacity,current_fill;
     char location[50];
     int status;
 }Bin;
 
-void create_bin(){}
+void create_bin(Bin* bin, int id, int cap, int current_fill);
 
-void update_bin_fill(){}
+void update_bin_fill(Bin* bin);
 
-void update_bin_fill(){}
+void update_bin_fill(Bin* bin);
 
-void report_bin_bill(){}
+void report_bin_bill(Bin* bin);
 
-void reset_bin(){}
+void reset_bin(Bin* bin);
 
-void print_bin_status(){}
-
+void print_bin_status(Bin* bin);        //for debugging 
 
 
 #endif
