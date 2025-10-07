@@ -47,7 +47,8 @@ void reset_bin(Bin* bin)
     bin->status=EMPTY;
 }
 
-void print_bin_status(const Bin* bin) {
+void print_bin_status(const Bin* bin)
+{
     const char* status_str[] = {"EMPTY", "FILLING", "URGENT", "COLLECTED"};
     printf("Bin %d [%s]: %d/%d filled (%s)\n",
            bin->id, bin->location,

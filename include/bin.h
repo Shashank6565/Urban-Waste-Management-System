@@ -16,15 +16,14 @@ typedef struct
 
 void create_bin(Bin* bin, int id, int cap, const char* location);
 
-void update_bin_fill(Bin* bin);
 
 void update_bin_fill(Bin* bin);
 
-void report_bin_bill(Bin* bin);
+void report_bin_full(Bin* bin);
 
 void reset_bin(Bin* bin);
 
-void print_bin_status(Bin* bin);        //for debugging 
+void print_bin_status(const Bin* bin);        //for debugging 
 
 
 #endif
