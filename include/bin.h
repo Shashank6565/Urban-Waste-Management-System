@@ -14,7 +14,7 @@ typedef struct
     int status;
 }Bin;
 
-void create_bin(Bin* bin, int id, int cap, int current_fill);
+void create_bin(Bin* bin, int id, int cap, const char* location);
 
 void update_bin_fill(Bin* bin);
 
